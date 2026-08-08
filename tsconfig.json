@@ -23,7 +23,7 @@
     /*ShadCN config */
     "baseUrl": ".", 
     "paths": {
-      "@/*": ["./src/"]
+      "@/*": ["./src/*"]
     },
     "ignoreDeprecations": "6.0"
   },
