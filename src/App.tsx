@@ -1,14 +1,14 @@
 import "./App.css"
-import PdfViewer from "./components/viewer/pdf/pdf-viewer"
+import EpubViewer from "./components/viewer/epub/epub-viewer"
 
 function App() {
-  const filePath = "/sample.pdf"
+  const filePath = "/sample.epub"
 
   return (
     <main>
       <p>You are reading: {filePath}</p>
 
-      <PdfViewer path={filePath} />
+      <EpubViewer path={filePath} />
     </main>
   )
 }
